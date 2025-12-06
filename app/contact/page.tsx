@@ -81,24 +81,13 @@ export default function ContactPage() {
       <div className="mx-auto max-w-xl px-4 py-8">
         {/* アイコン＋タイトル＋自己紹介 */}
         <div className="mb-4 flex items-center gap-3">
-            <Image
-            src="/baree-hiyoko.gif"          // 保存したファイル名に合わせて変更
-            alt="Masashi（ぺとり）のアイコン"
-            width={56}
-            height={56}
-            className="rounded-full border border-slate-700"
-            />
             <div>
             <h1 className="text-2xl font-bold">ご意見・ご要望</h1>
-            <p className="text-xs text-slate-400">
-                  Volatility Dashboard を作っている <span className="font-semibold">Masashi（ぺとり）</span> です。
-                  使ってみて気づいたことや「こんな機能があれば便利」など、ぜひ教えてください。
-            </p>
             </div>
         </div>
 
         <p className="mb-4 text-sm text-slate-400">
-            Volatility Dashboard に関する不具合の報告や、「こんな機能がほしい」といったご要望など、
+            本サイトに関する不具合の報告や、「こんな機能がほしい」といったご要望など、
             なんでも気軽に送っていただけるフォームです。すべてには返信できないかもしれませんが、今後の改善の参考にさせていただきます。
         </p>
 
@@ -155,7 +144,7 @@ export default function ContactPage() {
             </label>
             <textarea
               className="h-32 w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-100 outline-none focus:border-sky-500"
-              placeholder="例）VIX の過去データを◯年分までさかのぼって見られると嬉しいです、など"
+              placeholder="例）～～できない、おかしいところがある等"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

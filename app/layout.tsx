@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vol Watcher",
-  description: "Market volatility dashboard",
+  title: "aaa",
+  description: "aaa",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
